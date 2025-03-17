@@ -23,7 +23,7 @@ public class AppPilotos {
                 System.out.println("2 - Listar pilotos cadastrados");
                 System.out.println("3 - Localizar piloto pelo CPF");
                 System.out.println("4 - Cadastrar aeronave");
-                System.out.println("0 - Sair");
+                System.out.println("0 - Sair");                
                 System.out.print("Opção: ");
     
                 opcao = in.nextInt();
