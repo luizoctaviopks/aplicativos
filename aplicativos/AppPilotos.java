@@ -9,7 +9,7 @@ import classes.Piloto;
 public class AppPilotos {
     static Scanner input = new Scanner(System.in);
         public static void main(String[] args) throws InterruptedException, IOException {
-            final int MAX_ELEMENTOS = 2;
+            final int MAX_ELEMENTOS = 10;
             int opcao, qtdCadastrados = 0;
             Piloto[] pilotos = new Piloto[MAX_ELEMENTOS]; 
             Aeronave aeronave = new Aeronave();
@@ -37,7 +37,7 @@ public class AppPilotos {
                         continue;
                     }
                 
-                    // Cadastre seu piloto aqui
+                    // Cadastre o piloto aqui
                     System.out.println("\nInforme o nome do piloto:");
                     String nome = input.nextLine();
                 
